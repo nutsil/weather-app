@@ -1,1 +1,29 @@
 @import "src/assets/scss/variables.scss";
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: $base;
+  border-radius: 2px;
+  overflow: hidden;
+
+  input {
+    border: none;
+    padding: 5px;
+  }
+}
+
+.search-button {
+  width: 27px;
+  height: 27px;
+  background-color: rgba($neutral, 0.8);
+  border: none;
+  padding: 4px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
