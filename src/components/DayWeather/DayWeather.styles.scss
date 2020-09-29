@@ -1,0 +1,42 @@
+@import "src/assets/scss/variables.scss";
+
+.day-weather {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 270px;
+  background-color: $secondary;
+  color: $base;
+  padding: 20px 0;
+}
+
+.city,
+.description-sky {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.date-time {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.weather-description,
+.more-weather-description {
+  font-size: 12px;
+  p {
+    display: inline;
+  }
+  & p:last-child {
+    margin: 0 0 0 25px;
+  }
+}
+
+.weather-description {
+  margin-bottom: 10px;
+}
