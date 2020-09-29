@@ -1,14 +1,13 @@
 import React from "react";
 import "./WeatherItem.styles.scss";
-import sun from "../../assets/images/sun.svg";
 
-function WeatherItem() {
+function WeatherItem(props) {
   return (
     <div className="weather-item">
-      <p className="date">Saturday</p>
-      <img src={sun} alt="sun" />
-      <p className="temperature">23º</p>
-      <p className="description-sky">Clear Sky</p>
+      <p className="date">{props.dayOfWeek}</p>
+      <img src={props.weatherIconSRC} alt={props.weatherIconAlt} />
+      <p className="temperature">{props.celsiusTemperature}º</p>
+      <p className="description-sky">{props.weatherDescription}</p>
     </div>
   );
 }
