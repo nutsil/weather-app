@@ -3,7 +3,6 @@
 .search-bar {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   background-color: $base;
   border-radius: 2px;
   overflow: hidden;
@@ -12,6 +11,7 @@
   input {
     border: none;
     padding: 5px;
+    flex-grow: 1;
   }
 }
 
