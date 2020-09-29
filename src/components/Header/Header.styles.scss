@@ -1,1 +1,24 @@
 @import "src/assets/scss/variables.scss";
+
+.header {
+  color: $base;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-button {
+  width: 27px;
+  height: 27px;
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  padding: 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
